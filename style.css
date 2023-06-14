@@ -1,0 +1,59 @@
+body {
+	margin: 0;
+	padding: 0;
+	display: flex;
+}
+
+#container {
+	display: flex;
+	flex-direction: column;
+	height: 100vh;
+	width: 100vw;
+	background-color: #333;
+	align-items: center;
+	justify-content: center;
+	background-color: #000;
+}
+
+#timeDisplay {
+	display: flex;
+	font-size: 50px;
+	color: #EEE;
+}
+
+
+#controls {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	width: 300px;
+	margin-top: 5px;
+}
+
+#controls button {
+	width: 80px;
+	height: 30px;
+	font-size: 20px;
+	color: #EEE;
+	font-weight: bold;
+	border: none;
+	text-transform: uppercase;
+}
+
+#controls #reset {
+	background-color: #00F;
+}
+
+#controls #play {
+	background-color:green;
+}
+
+#controls #pause {
+	background-color: #F00;
+}
+
+
+#controls button:hover {
+	transform: scale(1.1);
+	border: 1px solid #000;
+}
